@@ -21,6 +21,7 @@ export default defineConfig({
     }),
   ],
   build: {
+    minify: false,
     lib: {
       entry: "src/index.ts",
       name: "SplayTree",
