@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Expecto" Version="10.2.3" />
+    <ProjectReference Include="..\SplayTree.fsproj" />
+
+    <Compile Include="Test.fs" />
+
+  </ItemGroup>
+</Project>

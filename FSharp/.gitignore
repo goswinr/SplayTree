@@ -1,0 +1,10 @@
+bin/
+obj/
+
+
+_js/
+_ts/
+_tscBuild/
+
+node_modules/
+fable_modules/

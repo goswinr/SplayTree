@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "compileTS": "tsc -p tsconfig.json",
+    "buildJS": "dotnet fable ../SplayTree.fsproj --outDir _js --configuration Release --noCache",
+    "buildTS": "dotnet fable ../SplayTree.fsproj --outDir _ts --configuration Release --lang ts --noCache",
+    "vite": "vite build"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2",
+    "vite": "^8.0.8"
+  }
+}
