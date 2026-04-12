@@ -1,3 +1,24 @@
+
+![Logo](https://raw.githubusercontent.com/goswinr/SplayTree/main/FSharp/Docs/logo128.png)
+
+# SplayTree
+
+This fork is a careful port of [w8r/splay-tree](https://github.com/w8r/splay-tree) to F#.
+See [FSharp/README.md](https://github.com/goswinr/SplayTree/blob/main/FSharp/README.md) for details on the port, tests and benchmarks.
+
+[![SplayTree on nuget.org](https://img.shields.io/nuget/v/SplayTree)](https://www.nuget.org/packages/SplayTree/)
+[![Build Status](https://github.com/goswinr/SplayTree/actions/workflows/build.yml/badge.svg)](https://github.com/goswinr/SplayTree/actions/workflows/build.yml)
+<!-- [![Docs Build Status](https://github.com/goswinr/SplayTree/actions/workflows/docs.yml/badge.svg)](https://github.com/goswinr/SplayTree/actions/workflows/docs.yml) -->
+<!-- [![Test Status](https://github.com/goswinr/SplayTree/actions/workflows/test.yml/badge.svg)](https://github.com/goswinr/SplayTree/actions/workflows/test.yml) -->
+[![license](https://img.shields.io/github/license/goswinr/SplayTree)](LICENSE.md)
+![code size](https://img.shields.io/github/languages/code-size/goswinr/SplayTree.svg)
+
+
+
+
+Original readme:
+
+
 # Fast splay tree [![npm version](https://badge.fury.io/js/splaytree.svg)](https://badge.fury.io/js/splaytree) [![codecov](https://codecov.io/gh/w8r/splay-tree/branch/master/graph/badge.svg)](https://codecov.io/gh/w8r/splay-tree)
 
 [Splay-tree](https://en.wikipedia.org/wiki/Splay_tree): **[fast](#benchmarks)**(non-recursive) and **simple**(< 1000 lines of code)
@@ -11,7 +32,7 @@ This tree is based on **top-down** splaying algorithm by D.Sleator. It supports
 - insertion with duplicates or no duplicates
 - lookup without splaying
 
-![Splay-tree](https://i.stack.imgur.com/CNSAZ.png)
+![Splay-tree](https://raw.githubusercontent.com/goswinr/SplayTree/main/Docs/CNSAZ-gray.png)
 
 | Operation | Average      | Worst case             |
 | --------- | ------------ | ---------------------- |
