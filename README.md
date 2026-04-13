@@ -32,7 +32,7 @@ This tree is based on **top-down** splaying algorithm by D.Sleator. It supports
 - insertion with duplicates or no duplicates
 - lookup without splaying
 
-![Splay-tree](https://raw.githubusercontent.com/goswinr/SplayTree/main/Docs/CNSAZ-gray.png)
+![Splay-tree](https://raw.githubusercontent.com/goswinr/SplayTree/main/FSharp/Docs/CNSAZ-gray.png)
 
 | Operation | Average      | Worst case             |
 | --------- | ------------ | ---------------------- |
